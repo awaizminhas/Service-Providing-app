@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="39.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.singleProviderController">
+   <children>
+      <HBox layoutY="-1.0" prefHeight="39.0" prefWidth="600.0">
+         <children>
+            <Circle fill="DODGERBLUE" radius="6.0" stroke="BLACK" strokeType="INSIDE">
+               <HBox.margin>
+                  <Insets left="10.0" top="13.0" />
+               </HBox.margin>
+            </Circle>
+            <Label fx:id="ProviderName" prefHeight="28.0" prefWidth="113.0" text="Label">
+               <padding>
+                  <Insets left="10.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font name="Calibri Light" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="ProviderContact" prefHeight="23.0" prefWidth="145.0" text="Label">
+               <padding>
+                  <Insets left="10.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font name="Calibri Light" size="15.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="30.0" />
+               </HBox.margin>
+            </Label>
+            <Button fx:id="Get" mnemonicParsing="false" onAction="#goToTask" text="Review">
+               <HBox.margin>
+                  <Insets top="5.0" />
+               </HBox.margin>
+            </Button>
+            <Label fx:id="ProviderEmail" text="Label">
+               <HBox.margin>
+                  <Insets left="30.0" top="10.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

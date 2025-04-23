@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.electricalController">
+   <top>
+      <AnchorPane prefHeight="112.0" prefWidth="600.0" style="-fx-background-color: #396EC1;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="218.0" layoutY="56.0" text="Plumbing" textFill="#fffcfc">
+               <font>
+                  <Font name="Arial Black" size="31.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="289.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox fx:id="electrianHolder" prefHeight="288.0" prefWidth="600.0" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>

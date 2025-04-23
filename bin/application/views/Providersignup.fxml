@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="495.0" prefWidth="609.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ProviderSignUp">
+   <children>
+      <Text layoutX="277.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign Up">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="ProviderFirstName" alignment="CENTER" layoutX="243.0" layoutY="69.0" />
+      <TextField fx:id="ProviderLastName" alignment="CENTER" layoutX="243.0" layoutY="111.0" />
+      <TextField fx:id="ProviderEmail" alignment="CENTER" layoutX="243.0" layoutY="150.0" />
+      <TextField fx:id="ProviderPassword" alignment="CENTER" layoutX="243.0" layoutY="200.0" />
+      <Text layoutX="243.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FIRST NAME" underline="true" />
+      <Text layoutX="244.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LAST NAME" underline="true" />
+      <TextField fx:id="ProviderAddress" alignment="CENTER" layoutX="243.0" layoutY="254.0" />
+      <Text layoutX="247.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EMAIL" underline="true" />
+      <Text layoutX="244.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASSWORD" underline="true" />
+      <Text layoutX="246.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADDRESS" underline="true" />
+      <TextField fx:id="ProviderContact" alignment="CENTER" layoutX="243.0" layoutY="306.0" />
+      <Text layoutX="244.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONTACT NUMBER" underline="true" />
+      <Text layoutX="245.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SKILL" underline="true" />
+      <Text layoutX="249.0" layoutY="167.0" opacity="0.2" strokeType="OUTSIDE" strokeWidth="0.0" text="Email Adress.." />
+      <Text layoutX="249.0" layoutY="271.0" opacity="0.2" strokeType="OUTSIDE" strokeWidth="0.0" text="Address.." />
+      <Text layoutX="249.0" layoutY="217.0" opacity="0.2" strokeType="OUTSIDE" strokeWidth="0.0" text="*********" />
+      <Text layoutX="248.0" layoutY="323.0" opacity="0.2" strokeType="OUTSIDE" strokeWidth="0.0" text="03*********" />
+      <Button fx:id="ProviderSignup" layoutX="278.0" layoutY="388.0" mnemonicParsing="false" onAction="#ProviderSignup" text="SIGN UP">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <ChoiceBox fx:id="skill" layoutX="243.0" layoutY="348.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>
